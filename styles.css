@@ -5,6 +5,10 @@
   border-bottom: 1px solid rgb(56, 68, 77);
 }
 
+.fact-check svg {
+  width: 24px;
+}
+
 .fact-check:hover {
   text-decoration: underline;
 }
