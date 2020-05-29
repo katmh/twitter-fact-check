@@ -1,0 +1,21 @@
+{
+  "name": "Twitter Fact Check",
+  "version": "1.0",
+  "description": "Adds “Get the facts about XYZ” to every tweet",
+  
+  "manifest_version": 2,
+
+  "content_scripts": [
+    {
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://twitter.com/*"
+      ]
+    }
+  ]
+}

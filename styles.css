@@ -1,0 +1,20 @@
+.fact-check {
+  display: flex;
+  width: 100%;
+  padding: 17.5px 0 12.5px;
+  border-bottom: 1px solid rgb(56, 68, 77);
+}
+
+.fact-check:hover {
+  text-decoration: underline;
+}
+
+.fact-check a {
+  color: rgb(29, 161, 242);
+  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  line-height: 19.6875px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
